@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+}
+
+#logo {
+    margin-left: 805px;
+    margin-top: 40px;
+}
+
+#top-nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#top-nav ul li a {
+    color: #252525;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    top: 10px;
+    left: 630px;
+}
+
+#top-nav ul li a:hover {
+    color: #0BA39C;
+}
+
+#page .home {
+    color: #0BA39C;
+}
+
+#page .home:hover {
+    color: #0BA39C;
+}
+
+#banner {
+    width: 100%;
+}
+
+#banner:hover {
+    opacity: 0.9;
+    
+}
+
+h2 {
+    background-color: white;
+    color: black;
+    font-family:serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 950px;
+    margin-top: -540px;
+    padding-top: 25px;
+    width: 400px;
+    height:50px;
+    opacity: 0.9
+}
+
+span {
+    display: flex; /* display:flex; allowed me to make all the span text be in line from the left.*/
+    background-color: #252525;
+    color: white;
+    font-family: serif;
+    font-size: 21px; /* Changing the font-size to anything above 21px would push (originality) down and away from it's box.*/
+    text-align: center;
+    margin-left: 950px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 20px;
+    width: 400px;
+    height: 30px;
+    opacity: 0.9;
+}
+
+#more {
+    display: flex; /* Inline flex moves Read More away from the text above and in it's own space just under it.*/
+    background-color: #0BA39C;
+    color: white;
+    font-family: serif;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 950px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    width: 120px;
+    height: 50px;
+    opacity: 0.9; /* Because the picture is transparent it makes everything i put on top of it also transparent so for each new element i add on top of it i have to give it an opacity: 0.9; so the element stands out and the only thing transparent remains the picture/ banner.*/
+}
+
+#mini-container {
+    background-color: white;
+    margin-top: 191px;
+    width: 100%;
+    height: 380px;
+}
+
+#mini-container ul {
+    list-style: none;
+    margin-left: 420px; /* margin-left: 420px; moves the whole list of images to the left.*/
+}
+
+#mini-container ul li {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    /* This bit of code displays the images on the same line and the margin adds space between the images though padding could be used as well.*/
+}
+
+#mini-container ul li a {
+    text-decoration: none;
+}
+
+.images {
+    opacity: 0.7;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.images:hover {
+    opacity: 0.9;
+    margin-bottom: -65px;
+    /* when hovering on the images, the images will drop down by -65px and the text will be inside the image and just under their faces.*/
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-left: 70px;
+    width: 124px;
+    
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    left: 1330px;
+    top: -45px;
+    display: inline-block;    
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 200%;
+    margin: -40px;
+    padding: 5% 5% 5% 4%;
+    color: white;
+}
+
+.social i:hover {
+    color: #0BA39C;
+    
+}
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    margin-top: -15px;
+    padding-bottom: 24px;
+        
+}
+
+#footer p {
+    color: white;
+    text-align: center;
+    margin-left: -640px;
+    padding-top: 60px;
+    /*position: relative; /* I add to use position: relative; top: 50px; because margin-top or bottom made the footer bigger or smaller.
+    top: 50px; I've opted to use padding-top: 50px; instead since it does the same thing.*/
+}
